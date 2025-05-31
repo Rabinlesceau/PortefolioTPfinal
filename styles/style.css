@@ -395,6 +395,7 @@ body {
 .project-card:hover h3 {
     background: linear-gradient(50deg, #04aef1,#1e054d, #f51111, #ae00ff); /* bleu ciel, rouge, orange */
     -webkit-background-clip: text;
+    background-clip: text;
     -webkit-text-fill-color: transparent;letter-spacing: 1.5px;
     text-shadow: 0 2px 8px #14141455;
 }
