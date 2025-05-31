@@ -530,7 +530,32 @@ body {
     gap: 20px;
   }
 }
-@media (max-width: 700px) {
+@media (max-width: 800px) {
+  .project-grid {
+    grid-template-columns: 1fr;
+  }
+  .project-card {
+    min-width: 0;
+  }
+  .project-image {
+    width: 100%;
+    height: 180px;
+    min-height: 120px;
+    max-height: 220px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .project-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+  }
+}
+
+@media (max-width: 500px) {
   .project-grid {
     grid-template-columns: 1fr;
   }
